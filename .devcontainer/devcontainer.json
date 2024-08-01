@@ -1,0 +1,11 @@
+{
+    "name": "Azure + Docker",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "settings": {},
+    "extensions": [],
+    "forwardPorts": [],
+    "postCreateCommand": "az login",
+    "remoteUser": "vscode"
+}
